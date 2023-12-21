@@ -61,11 +61,29 @@ int main() {
     WordGraph wordGraph = constructGraph(dictionary);
 
     // Example: Play the word puzzle game
-    std::string startWord = "Abi";
-    std::string targetWord = "Ada";
+    std::string startWord = "Aba";
+    std::string targetWord = "Abd";
 
-    // Play the game
+    // Play the game (Week 1)
     playWordPuzzle(wordGraph, startWord, targetWord);
+
+
+    // (Week 2)
+    std::cout << "BFS Path: ";
+    bfs(wordGraph, startWord, targetWord);
+
+
+
+    // Run Dijkstra's algorithm (Week 3)
+    auto pathInfo = dijkstra(wordGraph, startWord, targetWord);
+
+    // Retrieve and print the shortest path
+    std::vector<std::string> shortestPath = getShortestPath(pathInfo,
+                                                            startWord, targetWord);
+    std::cout << "Shortest Path: ";
+    for (const auto& word : shortestPath) {
+        std::cout << word << " ";
+    }
 
     return 0;
 }

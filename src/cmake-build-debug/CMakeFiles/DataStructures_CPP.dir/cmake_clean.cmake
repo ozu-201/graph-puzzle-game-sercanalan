@@ -67,6 +67,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/DataStructures_CPP.dir/List/Queue.cpp.obj.d"
   "CMakeFiles/DataStructures_CPP.dir/List/Stack.cpp.obj"
   "CMakeFiles/DataStructures_CPP.dir/List/Stack.cpp.obj.d"
+  "CMakeFiles/DataStructures_CPP.dir/Main.cpp.obj"
+  "CMakeFiles/DataStructures_CPP.dir/Main.cpp.obj.d"
   "CMakeFiles/DataStructures_CPP.dir/Tree/AvlTree.cpp.obj"
   "CMakeFiles/DataStructures_CPP.dir/Tree/AvlTree.cpp.obj.d"
   "CMakeFiles/DataStructures_CPP.dir/Tree/AvlTreeNode.cpp.obj"

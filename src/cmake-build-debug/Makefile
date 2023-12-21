@@ -129,19 +129,6 @@ DataStructures_CPP/fast:
 .PHONY : DataStructures_CPP/fast
 
 #=============================================================================
-# Target rules for targets named TestLinkedList
-
-# Build rule for target.
-TestLinkedList: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TestLinkedList
-.PHONY : TestLinkedList
-
-# fast build rule for target.
-TestLinkedList/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/build
-.PHONY : TestLinkedList/fast
-
-#=============================================================================
 # Target rules for targets named MathematicalExpression
 
 # Build rule for target.
@@ -168,113 +155,17 @@ Polynomial/fast:
 .PHONY : Polynomial/fast
 
 #=============================================================================
-# Target rules for targets named DartsGame
+# Target rules for targets named Main
 
 # Build rule for target.
-DartsGame: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DartsGame
-.PHONY : DartsGame
+Main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Main
+.PHONY : Main
 
 # fast build rule for target.
-DartsGame/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DartsGame.dir\build.make CMakeFiles/DartsGame.dir/build
-.PHONY : DartsGame/fast
-
-Array/DartsGame/Element.obj: Array/DartsGame/Element.cpp.obj
-.PHONY : Array/DartsGame/Element.obj
-
-# target to build an object file
-Array/DartsGame/Element.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DartsGame.dir\build.make CMakeFiles/DartsGame.dir/Array/DartsGame/Element.cpp.obj
-.PHONY : Array/DartsGame/Element.cpp.obj
-
-Array/DartsGame/Element.i: Array/DartsGame/Element.cpp.i
-.PHONY : Array/DartsGame/Element.i
-
-# target to preprocess a source file
-Array/DartsGame/Element.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DartsGame.dir\build.make CMakeFiles/DartsGame.dir/Array/DartsGame/Element.cpp.i
-.PHONY : Array/DartsGame/Element.cpp.i
-
-Array/DartsGame/Element.s: Array/DartsGame/Element.cpp.s
-.PHONY : Array/DartsGame/Element.s
-
-# target to generate assembly for a file
-Array/DartsGame/Element.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DartsGame.dir\build.make CMakeFiles/DartsGame.dir/Array/DartsGame/Element.cpp.s
-.PHONY : Array/DartsGame/Element.cpp.s
-
-Array/DartsGame/Queue.obj: Array/DartsGame/Queue.cpp.obj
-.PHONY : Array/DartsGame/Queue.obj
-
-# target to build an object file
-Array/DartsGame/Queue.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DartsGame.dir\build.make CMakeFiles/DartsGame.dir/Array/DartsGame/Queue.cpp.obj
-.PHONY : Array/DartsGame/Queue.cpp.obj
-
-Array/DartsGame/Queue.i: Array/DartsGame/Queue.cpp.i
-.PHONY : Array/DartsGame/Queue.i
-
-# target to preprocess a source file
-Array/DartsGame/Queue.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DartsGame.dir\build.make CMakeFiles/DartsGame.dir/Array/DartsGame/Queue.cpp.i
-.PHONY : Array/DartsGame/Queue.cpp.i
-
-Array/DartsGame/Queue.s: Array/DartsGame/Queue.cpp.s
-.PHONY : Array/DartsGame/Queue.s
-
-# target to generate assembly for a file
-Array/DartsGame/Queue.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DartsGame.dir\build.make CMakeFiles/DartsGame.dir/Array/DartsGame/Queue.cpp.s
-.PHONY : Array/DartsGame/Queue.cpp.s
-
-Array/DartsGame/State.obj: Array/DartsGame/State.cpp.obj
-.PHONY : Array/DartsGame/State.obj
-
-# target to build an object file
-Array/DartsGame/State.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DartsGame.dir\build.make CMakeFiles/DartsGame.dir/Array/DartsGame/State.cpp.obj
-.PHONY : Array/DartsGame/State.cpp.obj
-
-Array/DartsGame/State.i: Array/DartsGame/State.cpp.i
-.PHONY : Array/DartsGame/State.i
-
-# target to preprocess a source file
-Array/DartsGame/State.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DartsGame.dir\build.make CMakeFiles/DartsGame.dir/Array/DartsGame/State.cpp.i
-.PHONY : Array/DartsGame/State.cpp.i
-
-Array/DartsGame/State.s: Array/DartsGame/State.cpp.s
-.PHONY : Array/DartsGame/State.s
-
-# target to generate assembly for a file
-Array/DartsGame/State.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DartsGame.dir\build.make CMakeFiles/DartsGame.dir/Array/DartsGame/State.cpp.s
-.PHONY : Array/DartsGame/State.cpp.s
-
-Array/DartsGame/Test.obj: Array/DartsGame/Test.cpp.obj
-.PHONY : Array/DartsGame/Test.obj
-
-# target to build an object file
-Array/DartsGame/Test.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DartsGame.dir\build.make CMakeFiles/DartsGame.dir/Array/DartsGame/Test.cpp.obj
-.PHONY : Array/DartsGame/Test.cpp.obj
-
-Array/DartsGame/Test.i: Array/DartsGame/Test.cpp.i
-.PHONY : Array/DartsGame/Test.i
-
-# target to preprocess a source file
-Array/DartsGame/Test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DartsGame.dir\build.make CMakeFiles/DartsGame.dir/Array/DartsGame/Test.cpp.i
-.PHONY : Array/DartsGame/Test.cpp.i
-
-Array/DartsGame/Test.s: Array/DartsGame/Test.cpp.s
-.PHONY : Array/DartsGame/Test.s
-
-# target to generate assembly for a file
-Array/DartsGame/Test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DartsGame.dir\build.make CMakeFiles/DartsGame.dir/Array/DartsGame/Test.cpp.s
-.PHONY : Array/DartsGame/Test.cpp.s
+Main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/build
+.PHONY : Main/fast
 
 Array/DisjointSet.obj: Array/DisjointSet.cpp.obj
 .PHONY : Array/DisjointSet.obj
@@ -306,7 +197,6 @@ Array/Element.obj: Array/Element.cpp.obj
 # target to build an object file
 Array/Element.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures_CPP.dir\build.make CMakeFiles/DataStructures_CPP.dir/Array/Element.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/Array/Element.cpp.obj
 .PHONY : Array/Element.cpp.obj
 
 Array/Element.i: Array/Element.cpp.i
@@ -315,7 +205,6 @@ Array/Element.i: Array/Element.cpp.i
 # target to preprocess a source file
 Array/Element.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures_CPP.dir\build.make CMakeFiles/DataStructures_CPP.dir/Array/Element.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/Array/Element.cpp.i
 .PHONY : Array/Element.cpp.i
 
 Array/Element.s: Array/Element.cpp.s
@@ -324,7 +213,6 @@ Array/Element.s: Array/Element.cpp.s
 # target to generate assembly for a file
 Array/Element.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures_CPP.dir\build.make CMakeFiles/DataStructures_CPP.dir/Array/Element.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/Array/Element.cpp.s
 .PHONY : Array/Element.cpp.s
 
 Array/Graph/Graph.obj: Array/Graph/Graph.cpp.obj
@@ -885,7 +773,6 @@ Array/Stack.obj: Array/Stack.cpp.obj
 # target to build an object file
 Array/Stack.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures_CPP.dir\build.make CMakeFiles/DataStructures_CPP.dir/Array/Stack.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/Array/Stack.cpp.obj
 .PHONY : Array/Stack.cpp.obj
 
 Array/Stack.i: Array/Stack.cpp.i
@@ -894,7 +781,6 @@ Array/Stack.i: Array/Stack.cpp.i
 # target to preprocess a source file
 Array/Stack.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures_CPP.dir\build.make CMakeFiles/DataStructures_CPP.dir/Array/Stack.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/Array/Stack.cpp.i
 .PHONY : Array/Stack.cpp.i
 
 Array/Stack.s: Array/Stack.cpp.s
@@ -903,32 +789,7 @@ Array/Stack.s: Array/Stack.cpp.s
 # target to generate assembly for a file
 Array/Stack.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures_CPP.dir\build.make CMakeFiles/DataStructures_CPP.dir/Array/Stack.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/Array/Stack.cpp.s
 .PHONY : Array/Stack.cpp.s
-
-C_/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/Test/LinkedListTest.obj: C_/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/Test/LinkedListTest.cpp.obj
-.PHONY : C_/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/Test/LinkedListTest.obj
-
-# target to build an object file
-C_/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/Test/LinkedListTest.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/C_/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/Test/LinkedListTest.cpp.obj
-.PHONY : C_/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/Test/LinkedListTest.cpp.obj
-
-C_/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/Test/LinkedListTest.i: C_/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/Test/LinkedListTest.cpp.i
-.PHONY : C_/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/Test/LinkedListTest.i
-
-# target to preprocess a source file
-C_/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/Test/LinkedListTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/C_/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/Test/LinkedListTest.cpp.i
-.PHONY : C_/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/Test/LinkedListTest.cpp.i
-
-C_/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/Test/LinkedListTest.s: C_/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/Test/LinkedListTest.cpp.s
-.PHONY : C_/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/Test/LinkedListTest.s
-
-# target to generate assembly for a file
-C_/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/Test/LinkedListTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/C_/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/Test/LinkedListTest.cpp.s
-.PHONY : C_/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/Test/LinkedListTest.cpp.s
 
 General/AbstractGraph.obj: General/AbstractGraph.cpp.obj
 .PHONY : General/AbstractGraph.obj
@@ -984,7 +845,6 @@ List/DoublyLinkedList.obj: List/DoublyLinkedList.cpp.obj
 # target to build an object file
 List/DoublyLinkedList.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures_CPP.dir\build.make CMakeFiles/DataStructures_CPP.dir/List/DoublyLinkedList.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/List/DoublyLinkedList.cpp.obj
 .PHONY : List/DoublyLinkedList.cpp.obj
 
 List/DoublyLinkedList.i: List/DoublyLinkedList.cpp.i
@@ -993,7 +853,6 @@ List/DoublyLinkedList.i: List/DoublyLinkedList.cpp.i
 # target to preprocess a source file
 List/DoublyLinkedList.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures_CPP.dir\build.make CMakeFiles/DataStructures_CPP.dir/List/DoublyLinkedList.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/List/DoublyLinkedList.cpp.i
 .PHONY : List/DoublyLinkedList.cpp.i
 
 List/DoublyLinkedList.s: List/DoublyLinkedList.cpp.s
@@ -1002,7 +861,6 @@ List/DoublyLinkedList.s: List/DoublyLinkedList.cpp.s
 # target to generate assembly for a file
 List/DoublyLinkedList.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures_CPP.dir\build.make CMakeFiles/DataStructures_CPP.dir/List/DoublyLinkedList.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/List/DoublyLinkedList.cpp.s
 .PHONY : List/DoublyLinkedList.cpp.s
 
 List/DoublyNode.obj: List/DoublyNode.cpp.obj
@@ -1011,7 +869,6 @@ List/DoublyNode.obj: List/DoublyNode.cpp.obj
 # target to build an object file
 List/DoublyNode.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures_CPP.dir\build.make CMakeFiles/DataStructures_CPP.dir/List/DoublyNode.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/List/DoublyNode.cpp.obj
 .PHONY : List/DoublyNode.cpp.obj
 
 List/DoublyNode.i: List/DoublyNode.cpp.i
@@ -1020,7 +877,6 @@ List/DoublyNode.i: List/DoublyNode.cpp.i
 # target to preprocess a source file
 List/DoublyNode.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures_CPP.dir\build.make CMakeFiles/DataStructures_CPP.dir/List/DoublyNode.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/List/DoublyNode.cpp.i
 .PHONY : List/DoublyNode.cpp.i
 
 List/DoublyNode.s: List/DoublyNode.cpp.s
@@ -1029,7 +885,6 @@ List/DoublyNode.s: List/DoublyNode.cpp.s
 # target to generate assembly for a file
 List/DoublyNode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures_CPP.dir\build.make CMakeFiles/DataStructures_CPP.dir/List/DoublyNode.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/List/DoublyNode.cpp.s
 .PHONY : List/DoublyNode.cpp.s
 
 List/Graph/Edge.obj: List/Graph/Edge.cpp.obj
@@ -1134,7 +989,6 @@ List/LinkedList.obj: List/LinkedList.cpp.obj
 # target to build an object file
 List/LinkedList.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures_CPP.dir\build.make CMakeFiles/DataStructures_CPP.dir/List/LinkedList.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/List/LinkedList.cpp.obj
 .PHONY : List/LinkedList.cpp.obj
 
 List/LinkedList.i: List/LinkedList.cpp.i
@@ -1143,7 +997,6 @@ List/LinkedList.i: List/LinkedList.cpp.i
 # target to preprocess a source file
 List/LinkedList.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures_CPP.dir\build.make CMakeFiles/DataStructures_CPP.dir/List/LinkedList.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/List/LinkedList.cpp.i
 .PHONY : List/LinkedList.cpp.i
 
 List/LinkedList.s: List/LinkedList.cpp.s
@@ -1152,7 +1005,6 @@ List/LinkedList.s: List/LinkedList.cpp.s
 # target to generate assembly for a file
 List/LinkedList.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures_CPP.dir\build.make CMakeFiles/DataStructures_CPP.dir/List/LinkedList.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/List/LinkedList.cpp.s
 .PHONY : List/LinkedList.cpp.s
 
 List/Node.obj: List/Node.cpp.obj
@@ -1161,7 +1013,6 @@ List/Node.obj: List/Node.cpp.obj
 # target to build an object file
 List/Node.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures_CPP.dir\build.make CMakeFiles/DataStructures_CPP.dir/List/Node.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/List/Node.cpp.obj
 .PHONY : List/Node.cpp.obj
 
 List/Node.i: List/Node.cpp.i
@@ -1170,7 +1021,6 @@ List/Node.i: List/Node.cpp.i
 # target to preprocess a source file
 List/Node.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures_CPP.dir\build.make CMakeFiles/DataStructures_CPP.dir/List/Node.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/List/Node.cpp.i
 .PHONY : List/Node.cpp.i
 
 List/Node.s: List/Node.cpp.s
@@ -1179,7 +1029,6 @@ List/Node.s: List/Node.cpp.s
 # target to generate assembly for a file
 List/Node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures_CPP.dir\build.make CMakeFiles/DataStructures_CPP.dir/List/Node.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/List/Node.cpp.s
 .PHONY : List/Node.cpp.s
 
 List/Polynomial/Polynomial.obj: List/Polynomial/Polynomial.cpp.obj
@@ -1308,7 +1157,6 @@ List/Stack.obj: List/Stack.cpp.obj
 # target to build an object file
 List/Stack.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures_CPP.dir\build.make CMakeFiles/DataStructures_CPP.dir/List/Stack.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/List/Stack.cpp.obj
 .PHONY : List/Stack.cpp.obj
 
 List/Stack.i: List/Stack.cpp.i
@@ -1317,7 +1165,6 @@ List/Stack.i: List/Stack.cpp.i
 # target to preprocess a source file
 List/Stack.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures_CPP.dir\build.make CMakeFiles/DataStructures_CPP.dir/List/Stack.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/List/Stack.cpp.i
 .PHONY : List/Stack.cpp.i
 
 List/Stack.s: List/Stack.cpp.s
@@ -1326,8 +1173,40 @@ List/Stack.s: List/Stack.cpp.s
 # target to generate assembly for a file
 List/Stack.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures_CPP.dir\build.make CMakeFiles/DataStructures_CPP.dir/List/Stack.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestLinkedList.dir\build.make CMakeFiles/TestLinkedList.dir/List/Stack.cpp.s
 .PHONY : List/Stack.cpp.s
+
+Main.obj: Main.cpp.obj
+.PHONY : Main.obj
+
+# target to build an object file
+Main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures_CPP.dir\build.make CMakeFiles/DataStructures_CPP.dir/Main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MathematicalExpression.dir\build.make CMakeFiles/MathematicalExpression.dir/Main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Polynomial.dir\build.make CMakeFiles/Polynomial.dir/Main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/Main.cpp.obj
+.PHONY : Main.cpp.obj
+
+Main.i: Main.cpp.i
+.PHONY : Main.i
+
+# target to preprocess a source file
+Main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures_CPP.dir\build.make CMakeFiles/DataStructures_CPP.dir/Main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MathematicalExpression.dir\build.make CMakeFiles/MathematicalExpression.dir/Main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Polynomial.dir\build.make CMakeFiles/Polynomial.dir/Main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/Main.cpp.i
+.PHONY : Main.cpp.i
+
+Main.s: Main.cpp.s
+.PHONY : Main.s
+
+# target to generate assembly for a file
+Main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures_CPP.dir\build.make CMakeFiles/DataStructures_CPP.dir/Main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MathematicalExpression.dir\build.make CMakeFiles/MathematicalExpression.dir/Main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Polynomial.dir\build.make CMakeFiles/Polynomial.dir/Main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/Main.cpp.s
+.PHONY : Main.cpp.s
 
 Tree/AvlTree.obj: Tree/AvlTree.cpp.obj
 .PHONY : Tree/AvlTree.obj
@@ -1553,23 +1432,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... DartsGame
 	@echo ... DataStructures_CPP
+	@echo ... Main
 	@echo ... MathematicalExpression
 	@echo ... Polynomial
-	@echo ... TestLinkedList
-	@echo ... Array/DartsGame/Element.obj
-	@echo ... Array/DartsGame/Element.i
-	@echo ... Array/DartsGame/Element.s
-	@echo ... Array/DartsGame/Queue.obj
-	@echo ... Array/DartsGame/Queue.i
-	@echo ... Array/DartsGame/Queue.s
-	@echo ... Array/DartsGame/State.obj
-	@echo ... Array/DartsGame/State.i
-	@echo ... Array/DartsGame/State.s
-	@echo ... Array/DartsGame/Test.obj
-	@echo ... Array/DartsGame/Test.i
-	@echo ... Array/DartsGame/Test.s
 	@echo ... Array/DisjointSet.obj
 	@echo ... Array/DisjointSet.i
 	@echo ... Array/DisjointSet.s
@@ -1648,9 +1514,6 @@ help:
 	@echo ... Array/Stack.obj
 	@echo ... Array/Stack.i
 	@echo ... Array/Stack.s
-	@echo ... C_/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/Test/LinkedListTest.obj
-	@echo ... C_/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/Test/LinkedListTest.i
-	@echo ... C_/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/Test/LinkedListTest.s
 	@echo ... General/AbstractGraph.obj
 	@echo ... General/AbstractGraph.i
 	@echo ... General/AbstractGraph.s
@@ -1699,6 +1562,9 @@ help:
 	@echo ... List/Stack.obj
 	@echo ... List/Stack.i
 	@echo ... List/Stack.s
+	@echo ... Main.obj
+	@echo ... Main.i
+	@echo ... Main.s
 	@echo ... Tree/AvlTree.obj
 	@echo ... Tree/AvlTree.i
 	@echo ... Tree/AvlTree.s

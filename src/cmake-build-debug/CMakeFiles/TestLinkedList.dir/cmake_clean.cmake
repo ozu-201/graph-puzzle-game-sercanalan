@@ -15,6 +15,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/TestLinkedList.dir/List/Node.cpp.obj.d"
   "CMakeFiles/TestLinkedList.dir/List/Stack.cpp.obj"
   "CMakeFiles/TestLinkedList.dir/List/Stack.cpp.obj.d"
+  "CMakeFiles/TestLinkedList.dir/Main.cpp.obj"
+  "CMakeFiles/TestLinkedList.dir/Main.cpp.obj.d"
   "TestLinkedList.exe"
   "TestLinkedList.exe.manifest"
   "TestLinkedList.pdb"

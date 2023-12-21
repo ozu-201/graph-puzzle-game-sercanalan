@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/Array/MathematicalExpression/Evaluate.cpp" "CMakeFiles/MathematicalExpression.dir/Array/MathematicalExpression/Evaluate.cpp.obj" "gcc" "CMakeFiles/MathematicalExpression.dir/Array/MathematicalExpression/Evaluate.cpp.obj.d"
   "C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/Array/MathematicalExpression/Stack.cpp" "CMakeFiles/MathematicalExpression.dir/Array/MathematicalExpression/Stack.cpp.obj" "gcc" "CMakeFiles/MathematicalExpression.dir/Array/MathematicalExpression/Stack.cpp.obj.d"
   "C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/Array/MathematicalExpression/Token.cpp" "CMakeFiles/MathematicalExpression.dir/Array/MathematicalExpression/Token.cpp.obj" "gcc" "CMakeFiles/MathematicalExpression.dir/Array/MathematicalExpression/Token.cpp.obj.d"
+  "C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/Main.cpp" "CMakeFiles/MathematicalExpression.dir/Main.cpp.obj" "gcc" "CMakeFiles/MathematicalExpression.dir/Main.cpp.obj.d"
   )
 
 # Targets to which this target links.

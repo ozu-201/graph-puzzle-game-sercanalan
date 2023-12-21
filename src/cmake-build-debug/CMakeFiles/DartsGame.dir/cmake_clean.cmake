@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/DartsGame.dir/Array/DartsGame/State.cpp.obj.d"
   "CMakeFiles/DartsGame.dir/Array/DartsGame/Test.cpp.obj"
   "CMakeFiles/DartsGame.dir/Array/DartsGame/Test.cpp.obj.d"
+  "CMakeFiles/DartsGame.dir/Main.cpp.obj"
+  "CMakeFiles/DartsGame.dir/Main.cpp.obj.d"
   "DartsGame.exe"
   "DartsGame.exe.manifest"
   "DartsGame.pdb"

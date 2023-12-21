@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/Array/DartsGame/Queue.cpp" "CMakeFiles/DartsGame.dir/Array/DartsGame/Queue.cpp.obj" "gcc" "CMakeFiles/DartsGame.dir/Array/DartsGame/Queue.cpp.obj.d"
   "C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/Array/DartsGame/State.cpp" "CMakeFiles/DartsGame.dir/Array/DartsGame/State.cpp.obj" "gcc" "CMakeFiles/DartsGame.dir/Array/DartsGame/State.cpp.obj.d"
   "C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/Array/DartsGame/Test.cpp" "CMakeFiles/DartsGame.dir/Array/DartsGame/Test.cpp.obj" "gcc" "CMakeFiles/DartsGame.dir/Array/DartsGame/Test.cpp.obj.d"
+  "C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/Main.cpp" "CMakeFiles/DartsGame.dir/Main.cpp.obj" "gcc" "CMakeFiles/DartsGame.dir/Main.cpp.obj.d"
   )
 
 # Targets to which this target links.

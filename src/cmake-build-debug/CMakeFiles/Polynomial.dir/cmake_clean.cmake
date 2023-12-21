@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Polynomial.dir/List/Polynomial/TermNode.cpp.obj.d"
   "CMakeFiles/Polynomial.dir/List/Polynomial/TestPolynomial.cpp.obj"
   "CMakeFiles/Polynomial.dir/List/Polynomial/TestPolynomial.cpp.obj.d"
+  "CMakeFiles/Polynomial.dir/Main.cpp.obj"
+  "CMakeFiles/Polynomial.dir/Main.cpp.obj.d"
   "Polynomial.exe"
   "Polynomial.exe.manifest"
   "Polynomial.pdb"

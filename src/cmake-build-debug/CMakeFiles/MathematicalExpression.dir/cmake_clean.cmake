@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/MathematicalExpression.dir/Array/MathematicalExpression/Stack.cpp.obj.d"
   "CMakeFiles/MathematicalExpression.dir/Array/MathematicalExpression/Token.cpp.obj"
   "CMakeFiles/MathematicalExpression.dir/Array/MathematicalExpression/Token.cpp.obj.d"
+  "CMakeFiles/MathematicalExpression.dir/Main.cpp.obj"
+  "CMakeFiles/MathematicalExpression.dir/Main.cpp.obj.d"
   "MathematicalExpression.exe"
   "MathematicalExpression.exe.manifest"
   "MathematicalExpression.pdb"

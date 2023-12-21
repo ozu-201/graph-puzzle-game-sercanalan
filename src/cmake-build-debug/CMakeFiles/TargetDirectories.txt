@@ -1,7 +1,6 @@
 C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug/CMakeFiles/DataStructures_CPP.dir
-C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug/CMakeFiles/TestLinkedList.dir
 C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug/CMakeFiles/MathematicalExpression.dir
 C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug/CMakeFiles/Polynomial.dir
-C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug/CMakeFiles/DartsGame.dir
+C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug/CMakeFiles/Main.dir
 C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug/CMakeFiles/rebuild_cache.dir

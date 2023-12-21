@@ -61,50 +61,6 @@
 					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="TestLinkedList">
-				<Option output="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug/TestLinkedList.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 TestLinkedList"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="TestLinkedList/fast">
-				<Option output="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug/TestLinkedList.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 TestLinkedList/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="MathematicalExpression">
 				<Option output="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug/MathematicalExpression.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug"/>
@@ -193,8 +149,8 @@
 					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="DartsGame">
-				<Option output="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug/DartsGame.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="Main">
+				<Option output="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug/Main.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -209,14 +165,14 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 DartsGame"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 Main"/>
 					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="DartsGame/fast">
-				<Option output="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug/DartsGame.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="Main/fast">
+				<Option output="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug/Main.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -231,7 +187,7 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 DartsGame/fast"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 Main/fast"/>
 					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -258,30 +214,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/Test/LinkedListTest.cpp">
-			<Option target="TestLinkedList"/>
-		</Unit>
-		<Unit filename="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/Array/DartsGame/Element.cpp">
-			<Option target="DartsGame"/>
-		</Unit>
-		<Unit filename="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/Array/DartsGame/Element.h">
-			<Option target="DartsGame"/>
-		</Unit>
-		<Unit filename="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/Array/DartsGame/Queue.cpp">
-			<Option target="DartsGame"/>
-		</Unit>
-		<Unit filename="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/Array/DartsGame/Queue.h">
-			<Option target="DartsGame"/>
-		</Unit>
-		<Unit filename="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/Array/DartsGame/State.cpp">
-			<Option target="DartsGame"/>
-		</Unit>
-		<Unit filename="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/Array/DartsGame/State.h">
-			<Option target="DartsGame"/>
-		</Unit>
-		<Unit filename="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/Array/DartsGame/Test.cpp">
-			<Option target="DartsGame"/>
-		</Unit>
 		<Unit filename="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/Array/DisjointSet.cpp">
 			<Option target="DataStructures_CPP"/>
 		</Unit>
@@ -290,11 +222,9 @@
 		</Unit>
 		<Unit filename="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/Array/Element.cpp">
 			<Option target="DataStructures_CPP"/>
-			<Option target="TestLinkedList"/>
 		</Unit>
 		<Unit filename="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/Array/Element.h">
 			<Option target="DataStructures_CPP"/>
-			<Option target="TestLinkedList"/>
 		</Unit>
 		<Unit filename="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/Array/Graph/Graph.cpp">
 			<Option target="DataStructures_CPP"/>
@@ -439,11 +369,9 @@
 		</Unit>
 		<Unit filename="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/Array/Stack.cpp">
 			<Option target="DataStructures_CPP"/>
-			<Option target="TestLinkedList"/>
 		</Unit>
 		<Unit filename="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/Array/Stack.h">
 			<Option target="DataStructures_CPP"/>
-			<Option target="TestLinkedList"/>
 		</Unit>
 		<Unit filename="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/General/AbstractGraph.cpp">
 			<Option target="DataStructures_CPP"/>
@@ -459,19 +387,15 @@
 		</Unit>
 		<Unit filename="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/List/DoublyLinkedList.cpp">
 			<Option target="DataStructures_CPP"/>
-			<Option target="TestLinkedList"/>
 		</Unit>
 		<Unit filename="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/List/DoublyLinkedList.h">
 			<Option target="DataStructures_CPP"/>
-			<Option target="TestLinkedList"/>
 		</Unit>
 		<Unit filename="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/List/DoublyNode.cpp">
 			<Option target="DataStructures_CPP"/>
-			<Option target="TestLinkedList"/>
 		</Unit>
 		<Unit filename="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/List/DoublyNode.h">
 			<Option target="DataStructures_CPP"/>
-			<Option target="TestLinkedList"/>
 		</Unit>
 		<Unit filename="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/List/Graph/Edge.cpp">
 			<Option target="DataStructures_CPP"/>
@@ -499,19 +423,15 @@
 		</Unit>
 		<Unit filename="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/List/LinkedList.cpp">
 			<Option target="DataStructures_CPP"/>
-			<Option target="TestLinkedList"/>
 		</Unit>
 		<Unit filename="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/List/LinkedList.h">
 			<Option target="DataStructures_CPP"/>
-			<Option target="TestLinkedList"/>
 		</Unit>
 		<Unit filename="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/List/Node.cpp">
 			<Option target="DataStructures_CPP"/>
-			<Option target="TestLinkedList"/>
 		</Unit>
 		<Unit filename="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/List/Node.h">
 			<Option target="DataStructures_CPP"/>
-			<Option target="TestLinkedList"/>
 		</Unit>
 		<Unit filename="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/List/Polynomial/Polynomial.cpp">
 			<Option target="Polynomial"/>
@@ -542,11 +462,15 @@
 		</Unit>
 		<Unit filename="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/List/Stack.cpp">
 			<Option target="DataStructures_CPP"/>
-			<Option target="TestLinkedList"/>
 		</Unit>
 		<Unit filename="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/List/Stack.h">
 			<Option target="DataStructures_CPP"/>
-			<Option target="TestLinkedList"/>
+		</Unit>
+		<Unit filename="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/Main.cpp">
+			<Option target="DataStructures_CPP"/>
+			<Option target="MathematicalExpression"/>
+			<Option target="Polynomial"/>
+			<Option target="Main"/>
 		</Unit>
 		<Unit filename="C:/Users/sa021744/Documents/GitHub/graph-puzzle-game-sercanalan/src/Tree/AvlTree.cpp">
 			<Option target="DataStructures_CPP"/>
