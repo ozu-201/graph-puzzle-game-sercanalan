@@ -10,3 +10,8 @@ add_executable(Polynomial List/Polynomial/TestPolynomial.cpp List/Polynomial/Ter
 #add_executable(DartsGame Array/DartsGame/Element.cpp Array/DartsGame/Element.h Array/DartsGame/Queue.cpp Array/DartsGame/Queue.h Array/DartsGame/Test.cpp Array/DartsGame/State.cpp Array/DartsGame/State.h Main.cpp)
 add_executable(Main Main.cpp)
 #target(DataS)
+
+
+
+
+

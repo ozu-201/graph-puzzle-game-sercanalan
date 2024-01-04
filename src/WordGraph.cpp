@@ -79,11 +79,13 @@ std::string& targetWord) {
 
         // Explore neighbors
         for (const auto& neighbor : graph.getNeighbors(currentWord)) {
-            if (visited.find(neighbor) == visited.end()) {
+            if (visited.find(neighbor) == visited.end() &&
+                graph.areConnected(currentWord, neighbor)) {
                 visited.insert(neighbor);
                 bfsQueue.push(neighbor);
             }
         }
+
     }
 
     std::cout << "\nTarget word not found.\n";
@@ -111,20 +113,22 @@ graph, const std::string& startWord, const std::string& targetWord) {
         pq.pop();
 
         for (const auto& neighbor : graph.getNeighbors(currentWord)) {
-            int newDistance = currentDistance + 1;  // Assuming each edge has a weight of 1
+            int newDistance = currentDistance + 1;  // Assuming eachedge has a weight of 1
 
             if (newDistance < pathInfo[neighbor].distance) {
                 pathInfo[neighbor] = {newDistance, currentWord};
                 pq.push({newDistance, neighbor});
             }
         }
+
     }
 
     return pathInfo;
 }
 
 // Function to retrieve the shortest path
-std::vector<std::string> getShortestPath(const std::unordered_map<std::string, PathInfo>& pathInfo,
+std::vector<std::string> getShortestPath(const
+                                         std::unordered_map<std::string, PathInfo>& pathInfo,
                                          const std::string& startWord,
                                          const std::string& targetWord) {
     std::vector<std::string> path;
@@ -132,7 +136,14 @@ std::vector<std::string> getShortestPath(const std::unordered_map<std::string, P
 
     while (!currentWord.empty()) {
         path.push_back(currentWord);
-        currentWord = pathInfo.at(currentWord).previousWord;
+
+        // Check if the current word has a previous word in the pathInfo map
+        if (pathInfo.find(currentWord) != pathInfo.end()) {
+            currentWord = pathInfo.at(currentWord).previousWord;
+        } else {
+            // If there is no previous word, break the loop
+            break;
+        }
     }
 
     // Reverse the path
